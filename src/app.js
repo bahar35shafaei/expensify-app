@@ -22,7 +22,7 @@ const store = configurStore();
 // }, 3000);
 
 const state = store.getState();
-
+// console.log('testing!');
 
 const jsx = (
     <Provider store={store}>
